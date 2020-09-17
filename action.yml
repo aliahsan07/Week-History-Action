@@ -1,0 +1,12 @@
+name: "CommitHistory - This week in commits"
+description: "Received the top Hackernews in your pocket"
+branding:
+  icon: "book"
+  color: "orange"
+inputs:
+  repo:
+	  description: "the repo to run action on"
+	  required: true
+runs:
+  using: "node12"
+  main: 'index.js'
